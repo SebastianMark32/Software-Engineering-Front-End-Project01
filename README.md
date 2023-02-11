@@ -1,2 +1,2 @@
-# Software-Engineering-Project01
+# Software Engineering-Project01
 Organizer Platform
