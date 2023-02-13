@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+
 import { MatButtonModule } from "@angular/material/button";
 import { MatCardModule } from "@angular/material/card";
 import { MatIconModule } from "@angular/material/icon";
@@ -21,6 +24,8 @@ import { AppComponent } from './app.component';
 import { SchedulerPageComponent } from './components/scheduler-page/scheduler-page.component';
 import { TimerPageComponent } from './components/timer-page/timer-page.component';
 import { ResourcesPageComponent } from './components/resources-page/resources-page.component';
+import { SchedulerCompComponent } from './components/scheduler-comp/scheduler-comp.component';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +34,7 @@ import { ResourcesPageComponent } from './components/resources-page/resources-pa
     SchedulerPageComponent,
     TimerPageComponent,
     ResourcesPageComponent,
+    SchedulerCompComponent,
 
   ],
   imports: [
@@ -46,6 +52,11 @@ import { ResourcesPageComponent } from './components/resources-page/resources-pa
     MatSelectModule,
     ReactiveFormsModule,
     HttpClientModule,
+
+    CalendarModule.forRoot({
+      provide: DateAdapter,
+      useFactory: adapterFactory,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
