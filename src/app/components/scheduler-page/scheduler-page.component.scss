@@ -5,16 +5,12 @@
     flex-direction: column;
 }
 
-.items{
-    float: left;
+.group{  
     width: 20%;
-}
-
-.btn{  
-    margin-top: 40px;
-    width: 70%;  
-    height: 100px;
-    background-color: rgb(82, 87, 87);
-    color: white;
+    float: left;
+    margin: auto;
+    background-color: lightblue;
+    padding: 15px;
+    margin-top: 12px;
     
 }
