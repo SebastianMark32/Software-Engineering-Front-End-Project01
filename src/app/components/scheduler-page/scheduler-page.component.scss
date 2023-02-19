@@ -1,16 +1,43 @@
 .calendar{
     display: flex;
     float: right;
-    width: 80%;
+    width: 70%;
     flex-direction: column;
+    background-color: lightcyan;
+    text-align: center;
 }
 
-.group{  
-    width: 20%;
+.items{
     float: left;
-    margin: auto;
-    background-color: lightblue;
-    padding: 15px;
-    margin-top: 12px;
+    width: 20%;
+}
+
+.btn{  
+    margin-top: 40px;
+    width: 70%;  
+    //height: 100px;
+    background-color: rgb(82, 87, 87);
+    //color: white;
     
+}
+
+.group {
+    width: 29%;
+    float: left;
+    margin:auto;
+    background: lightblue;
+    padding: 15px;
+    margin-top:12px;
+    text-align: center;
+    
+}
+
+.class{
+    background: lightgreen;
+}
+.job{
+    background: lightpink;
+}
+.thesis{
+    background: lightyellow;
 }
