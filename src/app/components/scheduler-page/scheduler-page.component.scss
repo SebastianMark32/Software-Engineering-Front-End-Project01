@@ -1,3 +1,4 @@
+
 .calendar{
     display: flex;
     float: right;
@@ -41,3 +42,33 @@
 .thesis{
     background: lightyellow;
 }
+=======
+.calendar{
+    display: flex;
+    float: right;
+    width: 80%;
+    flex-direction: column;
+}
+
+.group{  
+    width: 20%;
+    float: left;
+    margin: auto;
+    background-color: lightblue;
+    padding: 15px;
+    margin-top: 12px;
+    border: 1px solid transparent;
+    background-color: #8d75cf;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+
+.group:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
