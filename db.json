@@ -1,10 +1,51 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
-  
+  "job": [
+    {
+      "id": "1",
+      "due": "2/15/23",
+      "name": "Bakery Application"
+    },
+    {
+      "due": "1/30/24",
+      "name": "Pastry Application",
+      "id": "2"
+    }
+  ],
+  "class": [
+    {
+      "id": "1",
+      "start": "10:30AM",
+      "end": "11:50AM",
+      "title": "Cookie Class",
+      "day": "TR"
+    },
+    {
+      "id": "2",
+      "start": "9AM",
+      "end": "10:20AM",
+      "title": "Bread Baking",
+      "day": "TR"
+    },
+    {
+      "id": "3",
+      "start": "1:00PM",
+      "end": "2:20PM",
+      "title": "Oven Maintennance",
+      "day": "MF"
+    },
+    {
+      "id": "4",
+      "start": "2:00PM",
+      "end": "3:20PM",
+      "title": "Pastry Workshop",
+      "day": "TR"
+    }
+  ],
+  "thesis": [
+    {
+      "id": "1",
+      "name": "link 1",
+      "link": "https://cs.siu.edu/files/thesis.pdf"
+    }
+  ]
+}
