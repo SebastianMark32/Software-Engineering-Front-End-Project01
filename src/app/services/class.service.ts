@@ -9,11 +9,6 @@ export class ClassService {
 
   constructor(private http: HttpClient) {}
   public classData!: ClassInterface[]
-  /*start!:string;
-  end!: string;
-  title!:string;
-  day!: string;*/
-  
 
   httpOptions: { headers: HttpHeaders } = {
     headers: new HttpHeaders({ "Content-Type": "application/json" }),

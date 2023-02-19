@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import("./slideshow.js" as any);
 
 @Component({
   selector: 'app-meme',

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import("./timer.js" as any);
+
 
 @Component({
   selector: 'app-timer-part',
@@ -6,7 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./timer-part.component.scss']
 })
 export class TimerPartComponent {
-  ngAfterViewInit(){
-    import("./timer.js" as any);
-  }
+
 }
