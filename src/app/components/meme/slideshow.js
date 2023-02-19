@@ -5,6 +5,7 @@ function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlidesfade");
   let dots = document.getElementsByClassName("dot");
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
