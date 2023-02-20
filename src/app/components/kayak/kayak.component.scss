@@ -1,12 +1,13 @@
 .CampusMap{
-    border: 3px solid #73AD21;
-    //margin-left: 30px;
+    border: 0px solid #73AD21;
+    margin-left: 30px;
 }
 
 .pageContent{
     display: flex;
     padding: 1%;
 }
+
 
 
 form{
@@ -25,6 +26,4 @@ intput[type="email"]{
     width: 100%;
     border-radius: 5px;
     border: 1px solid #ccc;
-
-
 }

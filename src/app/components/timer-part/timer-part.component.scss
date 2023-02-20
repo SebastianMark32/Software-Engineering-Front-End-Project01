@@ -14,10 +14,15 @@
 h1 {
     text-align: center;
 }
+
+input{
+    width: max-content;
+}
 .watch-title{
     font-size: 20px;
     border: none;
     background-color: pink;
+    width: 80%;
 }
 .digit {
     font-size: 50px;

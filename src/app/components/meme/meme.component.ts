@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import("./slideshow.js" as any);
 
 @Component({
   selector: 'app-meme',
@@ -6,7 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./meme.component.scss']
 })
 export class MemeComponent {
-  ngAfterViewInit(){
-    import("./slideshow.js" as any);
-  }
+
 }

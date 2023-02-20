@@ -18,9 +18,8 @@ import {MatAutocompleteModule}from "@angular/material/autocomplete";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import {MatSelectModule} from '@angular/material/select';
 import {MatChipsModule} from '@angular/material/chips'
+
 import { NavigationComponent } from "./components/navigation/navigation.component";
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SchedulerPageComponent } from './components/scheduler-page/scheduler-page.component';
@@ -32,6 +31,7 @@ import { ClassTodoComponent } from './components/class-todo/class-todo.component
 import { JobTodoComponent } from './components/job-todo/job-todo.component';
 import { ThesisTodoComponent } from './components/thesis-todo/thesis-todo.component';
 import { MemeComponent } from './components/meme/meme.component';
+import { KayakComponent } from './components/kayak/kayak.component';
 
 
 @NgModule({
@@ -46,7 +46,8 @@ import { MemeComponent } from './components/meme/meme.component';
     ClassTodoComponent,
     JobTodoComponent,
     ThesisTodoComponent,
-    MemeComponent
+    MemeComponent,
+    KayakComponent
     
   ],
   imports: [
