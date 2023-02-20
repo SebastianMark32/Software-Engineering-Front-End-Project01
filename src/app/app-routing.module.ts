@@ -5,7 +5,6 @@ import { SchedulerPageComponent } from './components/scheduler-page/scheduler-pa
 import { ResourcesPageComponent } from './components/resources-page/resources-page.component';
 import { TimerPageComponent } from './components/timer-page/timer-page.component';
 import { MemeComponent } from './components/meme/meme.component';
-import { KayakComponent } from './components/kayak/kayak.component';
 
 
 const routes: Routes = [
@@ -13,8 +12,6 @@ const routes: Routes = [
   { path: "resources", component: ResourcesPageComponent },
   { path: "timer", component: TimerPageComponent },
   { path: "meme", component: MemeComponent },
-  { path: "kayak", component: KayakComponent },
-
   { path: "**", redirectTo: ""},
 ];
 
