@@ -1,0 +1,33 @@
+<div *ngFor="let class of post" class="group">
+    <b>{{class.id}}: {{class.name}}</b> 
+    <p>Link: {{class.link}}</p>
+</div>
+
+<button (click)="isOpen1 = !isOpen1" mat-raised-button color="primary">
+    <mat-icon>add</mat-icon>Add Thesis Link
+  </button>
+  <form
+    *ngIf="isOpen1"
+    [formGroup]="form1"
+    #formDirective="ngForm"
+    (ngSubmit)="onSubmit1(form1.value)"
+    novalidate
+  >
+    <mat-form-field>
+      <mat-label>Name/Desciption (No more than 50 characters)</mat-label>
+        <input matInput formControlName="name"/>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Link</mat-label>
+      <input matInput formControlName="link" />
+    </mat-form-field>
+    
+    <button
+      color="primary"
+      [disabled]="!form1.valid"
+      mat-raised-button
+      type="submit"
+    >
+      <span>Add Thesis Link</span>
+    </button>
+  </form>
