@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-
+import("./timer.js" as any);
 
 
 @Component({
@@ -8,7 +8,5 @@ import { Component} from '@angular/core';
   styleUrls: ['./timer-part.component.scss']
 })
 export class TimerPartComponent {
-  ngOnInit(){
-    import("./timer.js" as any);
-  }
+
 }
